@@ -958,7 +958,8 @@ details[open] summary::after {
 .cities-grid{
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
+padding-left: 30px;
 }
 .city-box{
   border: 1px solid #D0D0D0;
