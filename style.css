@@ -135,7 +135,7 @@ height: 700px;
     position: relative;
 
     bottom: 60px;
-    width: 1000px;
+    width: 100%;
     height: 500px;
     border-radius: 10px;
 }
@@ -387,7 +387,7 @@ height: 700px;
     .stat-box{
         position: relative;
         bottom: 60px;
-        left: 55px;
+        left: 10px;
         display: flex;
     }
     .stat-box img{
@@ -436,7 +436,7 @@ height: 700px;
     
   }
   .card img {
-    width: 300px;
+    width: 30%;
     height: auto;
     margin-right: 18px;
     border-radius: 14px 0 0 14px;
@@ -549,7 +549,7 @@ height: 700px;
   .patient-cards{
     display: flex;
     gap: 50px;
-    padding-left: 170px;
+    padding-left: 10px;
   }
   .patient-card1{
     display: flex;
@@ -565,7 +565,7 @@ height: 700px;
   }
 
   .patient-card img {
-    width: 260px;
+    width: 20%;
   }
 
   .patient-card1 {
@@ -957,27 +957,26 @@ details[open] summary::after {
 }
 .cities-grid{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
 }
 .city-box{
   border: 1px solid #D0D0D0;
   border-radius: 10px;
-  width: 30%;
-  height: 100px;
-  display: flex;
+  width: 40%;
+  height: 15%;
+  /* display: flex; */
 }
 .find-img{
   height: 50%;
   position: relative;
   top: 20px;
-  left: 20px;
+  left: 10px;
 }
 .find-detail{
   position: relative;
-  top: 30px;
-  left: 30px;
+  top: -20px;
+  left: 60px;
 }
 .clinic-images {
 display: flex;
@@ -1165,7 +1164,7 @@ height: 30%;
 }
 
 .footer-bottom hr {
-  position: relative;
+  position: absolute;
   left: 380px;
   bottom: 25px;
     border: none;
